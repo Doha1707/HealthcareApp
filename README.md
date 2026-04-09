@@ -120,42 +120,7 @@ The model outputs:
 * Pandas
 * Pickle
 
----
 
-## 👩‍💻 Author
 
-Doha — Industrial Management Student at EMINES
-Interested in Artificial Intelligence and Data Science
-Participating in AI Hackathons
 
----
 
-## 🚀 Future Improvements
-
-* Add more ML models (Random Forest, XGBoost)
-* Improve UI design
-* Add dataset visualization
-* Deploy on Streamlit Cloud
-
----
-
-Ce README va rendre ton repo :
-
-* Professionnel
-* Clair
-* Attirant pour hackathon AI
-
----
-
-Je peux aussi :
-
-* Te donner `requirements.txt`
-* T'aider à déployer sur Streamlit
-* T'aider à améliorer ton GitHub profil
-
-Envoie-moi :
-
-* Le nom de ton repo
-* Ton username GitHub
-
-Je te l'optimise encore plus 🚀
