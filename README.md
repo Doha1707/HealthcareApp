@@ -1,126 +1,82 @@
-# 🩺 Healthcare Quality Prediction App
+🩺 Healthcare Quality Prediction App
 
-AI-powered healthcare quality prediction application built with **Machine Learning** and **Streamlit**.
-This app predicts the risk of **PoorCare** using clinical and healthcare-related variables.
+A Machine Learning web application built with Streamlit to predict healthcare quality risk using clinical data.
 
-## 🚀 Project Overview
+This project uses a Logistic Regression model to predict whether a patient is at risk of PoorCare based on healthcare usage and treatment variables.
 
-This project uses a **Logistic Regression Machine Learning model** to predict whether a patient is at **high risk of poor healthcare quality** based on multiple medical indicators.
+🚀 Features
+Interactive Streamlit interface
+Real-time prediction
+Probability score output
+Risk classification (High / Low)
+Clean and user-friendly dashboard
+🧠 Machine Learning Model
 
-The application provides:
+Model Used:
 
-* Interactive UI using Streamlit
-* Real-time prediction
-* Probability score
-* Risk classification (High / Low)
+Logistic Regression
 
----
+Pipeline:
 
-## 🧠 Machine Learning Model
+StandardScaler
+Logistic Regression
 
-* Model: Logistic Regression
-* Pipeline: StandardScaler → Logistic Regression
-* Threshold: 0.5
-* Class Weight: Balanced
+Prediction Target:
 
-The model predicts **PoorCare risk** based on:
+PoorCare (0 = Low Risk, 1 = High Risk)
+📊 Input Variables
 
-* ERVisits
-* OfficeVisits
-* Narcotics
-* ProviderCount
-* NumberClaims
-* StartedOnCombination
+The model uses the following features:
 
----
+ERVisits
+OfficeVisits
+Narcotics
+ProviderCount
+NumberClaims
+StartedOnCombination
+📂 Project Structure
+├── healthcareapp.py     # Streamlit application
+├── Logreg.py            # Model training script
+├── model_A.pkl          # Saved trained model
+├── Quality.csv          # Dataset
+├── README.md            # Project documentation
+⚙️ Installation
 
-## 🖥️ App Interface
+Clone repository:
 
-Features:
-
-* Interactive sliders for input values
-* Real-time prediction
-* Probability output
-* Risk classification
-* Technical details section
-
----
-
-## 📂 Project Structure
-
-```
-├── healthcareapp.py
-├── model_A.pkl
-├── README.md
-```
-
----
-
-## ⚙️ Installation
-
-Clone the repository:
-
-```
-git clone https://github.com/your-username/Healthcare-Quality-Prediction.git
-cd Healthcare-Quality-Prediction
-```
+git clone https://github.com/Doha1707/your-repo-name.git
+cd your-repo-name
 
 Install dependencies:
 
-```
-pip install -r requirements.txt
-```
-
-Or manually install:
-
-```
 pip install streamlit pandas scikit-learn
-```
+▶️ Run the App
 
----
+Run Streamlit application:
 
-## ▶️ Run the Application
-
-Run the Streamlit app:
-
-```
 streamlit run healthcareapp.py
-```
 
-The app will open in your browser automatically.
+The application will open automatically in your browser.
 
----
+📈 Example Output
 
-## 📊 Example Prediction
+The application displays:
 
-The model outputs:
+Probability of PoorCare
+Risk classification:
+0 → Low Risk
+1 → High Risk
+🛠️ Technologies Used
+Python
+Streamlit
+Scikit-learn
+Pandas
+Pickle
+🎯 Project Purpose
 
-* Probability of PoorCare
-* Risk classification:
+This project demonstrates:
 
-  * 0 → Low Risk
-  * 1 → High Risk
-
----
-
-## 🎯 Use Cases
-
-* Healthcare quality monitoring
-* Risk prediction
-* Medical decision support
-* Data science learning project
-
----
-
-## 🛠️ Technologies Used
-
-* Python
-* Streamlit
-* Scikit-learn
-* Pandas
-* Pickle
-
-
-
-
-
+Machine Learning model deployment
+Healthcare data analysis
+Interactive AI applications
+End-to-end AI pipeline
