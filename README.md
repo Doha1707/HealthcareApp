@@ -63,8 +63,8 @@ The model uses the following features:
 Clone repository:
 
 ```
-git clone https://github.com/Doha1707/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/Doha1707/HealthcareApp.git
+cd HealthcareApp
 ```
 
 Install dependencies:
